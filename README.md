@@ -1,3 +1,11 @@
+```
+yarn dev
+visit localhost:3000
+examine the serialized RSC payload for the `/` request
+observe the meta tag that is a child of the head tag is present in the RSC payload
+You won't see the head in any native RSC payloads because it is part of the root shared layout which is not refetched on page navigation
+```
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
